@@ -6,7 +6,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            string aulaIntro = "Introdução ás Coleções";
+            string aulaIntro = "Introdução às Coleções";
             string aulaModelando = "Modelando a Classe Aula";
             string aulaSets = "Trabalhando com Conjuntos";
 
