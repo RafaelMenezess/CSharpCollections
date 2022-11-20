@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Arrays
 {
@@ -28,12 +24,39 @@ namespace Arrays
 
             Imprimir(aulas);
 
-            Console.WriteLine(aulas[0]);
-            Console.WriteLine(aulas[aulas.Length -1]);
+            //Console.WriteLine(aulas[0]);
+            //Console.WriteLine(aulas[aulas.Length - 1]);
 
-            aulas[0] = "Trabalhando com Arrays";
+            //aulas[0] = "Trabalhando com Arrays";
+            //Imprimir(aulas);
+
+            //Console.WriteLine("Aula modelando primeira ocorrência no índice " + Array.IndexOf(aulas, aulaModelando));
+            //Console.WriteLine("Aula modelando última ocorrência no índice " + Array.LastIndexOf(aulas, aulaModelando));
+
+            Array.Reverse(aulas);
             Imprimir(aulas);
 
+            Array.Resize(ref aulas, 2);
+            Imprimir(aulas);
+
+            Array.Resize(ref aulas, 3);
+            Imprimir(aulas);
+            Console.WriteLine(aulas.Length);
+            aulas[aulas.Length - 1] = "Conclusão";
+            Imprimir(aulas);
+
+            Array.Sort(aulas);
+            Imprimir(aulas);
+
+            string[] copia = new string[2];
+            Array.Copy(aulas, 1, copia, 0, 2);
+            Imprimir(copia);
+
+            string[] clone = aulas.Clone() as string[];
+            Imprimir(clone);
+
+            Array.Clear(clone, 1, 2);
+            Imprimir(clone);
 
             Console.ReadKey();
         }
