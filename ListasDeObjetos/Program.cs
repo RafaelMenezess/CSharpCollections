@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Permissions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ListasDeObjetos
 {
@@ -56,8 +52,8 @@ namespace ListasDeObjetos
 
         public int CompareTo(object obj)
         {
-            Aula that= obj as Aula;
-            return this.titulo.CompareTo(that.titulo); 
+            Aula that = obj as Aula;
+            return this.titulo.CompareTo(that.titulo);
         }
 
         public override string ToString()
