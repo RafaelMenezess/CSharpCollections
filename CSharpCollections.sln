@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaSomenteLeitura", "List
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdenandoESomando", "OrdenandoESomando\OrdenandoESomando.csproj", "{6D8A8CE9-0314-48A7-B0D1-DE834E13DC4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", "{9AC7FB8E-D020-49EB-8ACA-8E0C8508E94F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6D8A8CE9-0314-48A7-B0D1-DE834E13DC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8A8CE9-0314-48A7-B0D1-DE834E13DC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8A8CE9-0314-48A7-B0D1-DE834E13DC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC7FB8E-D020-49EB-8ACA-8E0C8508E94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC7FB8E-D020-49EB-8ACA-8E0C8508E94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC7FB8E-D020-49EB-8ACA-8E0C8508E94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC7FB8E-D020-49EB-8ACA-8E0C8508E94F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
