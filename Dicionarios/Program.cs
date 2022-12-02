@@ -45,7 +45,14 @@ namespace Dicionarios
 
             Console.WriteLine("Quem é o aluno com matricula 5618?");
             Aluno aluno5618 = csharpColecoes.BuscaMatriculado(5618);
-            Console.WriteLine("Aluno 5617: " + aluno5618);
+            Console.WriteLine("Aluno 5618: " + aluno5618);
+
+            Aluno fabio = new Aluno("Fabio Gushiken", 5617);
+            //csharpColecoes.Matricula(fabio);
+            csharpColecoes.SubstituirAluno(fabio);
+            Console.WriteLine("Aluno 5617 agora? ");
+            Console.WriteLine(csharpColecoes.BuscaMatriculado(5617));
+
 
 
             Console.ReadKey();
