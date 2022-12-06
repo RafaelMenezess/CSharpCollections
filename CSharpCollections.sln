@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedList", "SortedList\SortedList.csproj", "{8321C180-D397-40AF-A0F5-CB9EC6060508}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedDictionary", "SortedDictionary\SortedDictionary.csproj", "{960E33A5-C42F-4ABD-A2DB-527EE5B84461}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{8321C180-D397-40AF-A0F5-CB9EC6060508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8321C180-D397-40AF-A0F5-CB9EC6060508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8321C180-D397-40AF-A0F5-CB9EC6060508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960E33A5-C42F-4ABD-A2DB-527EE5B84461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960E33A5-C42F-4ABD-A2DB-527EE5B84461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960E33A5-C42F-4ABD-A2DB-527EE5B84461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960E33A5-C42F-4ABD-A2DB-527EE5B84461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
