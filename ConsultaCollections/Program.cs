@@ -1,6 +1,7 @@
 ﻿using ConsultaCollections;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsultandoCollections
 {
@@ -24,13 +25,24 @@ namespace ConsultandoCollections
                 new Mes("Dezembro", 31)
             };
 
-            meses.Sort();
-            foreach (var mes in meses)
+            //meses.Sort();
+            //foreach (var mes in meses)
+            //{
+            //    if (mes.Dias == 31)
+            //    {
+            //        Console.WriteLine(mes.Nome.ToUpper());
+            //    }
+            //}
+
+            IEnumerable<string>
+                consulta = meses
+                            .Where(m => m.Dias == 31)
+                            .OrderBy(m => m.Nome)
+                            .Select(m => m.Nome.ToUpper());
+
+            foreach (var mes in consulta)
             {
-                if (mes.Dias == 31)
-                {
-                    Console.WriteLine(mes.Nome.ToUpper());
-                }
+                Console.WriteLine(mes);
             }
 
             Console.ReadKey();
