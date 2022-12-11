@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays", "JaggedArray
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultandoCollections", "ConsultaCollections\ConsultandoCollections.csproj", "{12AE51DA-A9AD-4B1E-B753-4BA118C7E2E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutrosOperadoresLINQ", "OutrosOperadoresLINQ\OutrosOperadoresLINQ.csproj", "{1B0ACD90-CA4A-4172-9B90-0B9946AAE113}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{12AE51DA-A9AD-4B1E-B753-4BA118C7E2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12AE51DA-A9AD-4B1E-B753-4BA118C7E2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12AE51DA-A9AD-4B1E-B753-4BA118C7E2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0ACD90-CA4A-4172-9B90-0B9946AAE113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0ACD90-CA4A-4172-9B90-0B9946AAE113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0ACD90-CA4A-4172-9B90-0B9946AAE113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0ACD90-CA4A-4172-9B90-0B9946AAE113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
